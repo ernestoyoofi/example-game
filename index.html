@@ -46,7 +46,7 @@ function gamearea() {
     this.canvas.width = 320;
     this.canvas.height = 180;    
     document.getElementById("canvascontainer").appendChild(this.canvas);
-    this.context = this.canvas.getContext("3d");
+    this.context = this.canvas.getContext("2d");
     this.pause = false;
     this.frameNo = 0;
     this.start = function() {
